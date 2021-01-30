@@ -1,14 +1,14 @@
 {
   "expo": {
     "name": "Noah's Ark",
-    "slug": "Noah",
+    "slug": "noah",
     "version": "1.0.0",
     "orientation": "default",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/sss.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/arks.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -16,10 +16,19 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "androidStatusBar": {
+      "backgroundColor": "#000000",
+      "translucent": false
+    },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false,
+      "bundleIdentifier": "com.noahark.myappaboutnoah",
+      "buildNumber": "2.0.0"
     },
     "android": {
+      "permissions": [],
+      "package": "com.noahark.myappaboutnoah",
+      "versionCode": 2,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
@@ -28,6 +37,6 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": ""
+    "description": "Noah's Ark without the roof"
   }
 }
