@@ -138,14 +138,13 @@ export default function One() {
   // },[loaded])
 
   useEffect(() => {
-    console.warn("", screen);
-    if (screen == 0 && loaded) {
-      setLoaded(false);
-      console.warn("Workings");
-      setTimeout(() => {
-        setScreen(1);
-      }, 7000);
-    }
+    // if (screen == 0 && loaded) {
+    //   setLoaded(false);
+    //   console.warn("Workings");
+    //   setTimeout(() => {
+    //     setScreen(1);
+    //   }, 100000);
+    // }
     if (screen == 29 && loaded) {
       setLoaded(false);
       console.warn("screen 29");
@@ -154,13 +153,13 @@ export default function One() {
       }, 19000);
     }
 
-    if (screen == 1  && loaded) {
+    if (screen == 1 && loaded) {
       setLoaded(false);
       setTimeout(() => {
         setScreen(2);
       }, 7000);
     }
-    if (screen == 2  && loaded) {
+    if (screen == 2 && loaded) {
       setLoaded(false);
       setTimeout(() => {
         // console.log("3");
@@ -362,8 +361,23 @@ export default function One() {
             </Animated.Text>
           )}
 
-          {screen == 1 || screen === 29 || screen == 2 ? null : screen ==
-            0 ? null : (
+          {screen == 1 || screen === 29 || screen == 2 ? null : screen == 0 ? (
+            <TouchableOpacity
+            onPress={()=>{
+              setScreen(1);
+              setLoaded(false)
+            }}
+              style={{
+                flex: 1,
+                justifyContent: "center",
+                alignItems: "center",
+                height: 400,
+                width: "100%",
+              }}
+            >
+              <Text style={{ fontSize: 26,color:'#fff' }}>Continue >></Text>
+            </TouchableOpacity>
+          ) : (
             // <View
             //   style={{
             //     flexDirection: "row",
