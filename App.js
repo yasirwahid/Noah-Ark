@@ -18,8 +18,8 @@ import { AntDesign, Ionicons } from "@expo/vector-icons";
 import Colors from "./constants/colors";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 
-import v1 from "./videos/1.mp4";
 import v30 from "./videos/30.mp4";
+import v1 from "./videos/1.mp4";
 import v2 from "./videos/2.mp4";
 import v3 from "./videos/3.mp4";
 import v4 from "./videos/4.mp4";
@@ -131,30 +131,40 @@ export default function One() {
   const pan = useRef(new Animated.ValueXY()).current;
   const [textAnim, setTextAnim] = useState(new Animated.Value(300));
   const [muted, setMuted] = useState(false);
+  const [loaded, setLoaded] = useState(false);
+
+  // useEffect(()=>{
+
+  // },[loaded])
 
   useEffect(() => {
-    if (screen == 0) {
-      console.log()
+    console.warn("", screen);
+    if (screen == 0 && loaded) {
+      setLoaded(false);
+      console.warn("Workings");
       setTimeout(() => {
         setScreen(1);
       }, 7000);
     }
-    if (screen == 29) {
-      console.log();
+    if (screen == 29 && loaded) {
+      setLoaded(false);
+      console.warn("screen 29");
       setTimeout(() => {
         setScreen(0);
       }, 19000);
     }
 
-    if (screen == 1) {
+    if (screen == 1  && loaded) {
+      setLoaded(false);
       setTimeout(() => {
         setScreen(2);
       }, 7000);
     }
-    if (screen == 2) {
+    if (screen == 2  && loaded) {
+      setLoaded(false);
       setTimeout(() => {
         // console.log("3");
-        
+
         Animated.timing(textAnim, {
           toValue: 450,
           duration: 0,
@@ -163,14 +173,13 @@ export default function One() {
           Animated.timing(textAnim, {
             toValue: 0,
             duration: 500,
-            useNativeDriver: true, 
+            useNativeDriver: true,
           }).start();
         });
         setScreen(3);
-        
-      }, 15000);
+      }, 7000);
     }
-  }, [screen]);
+  }, [loaded]);
 
   const panResponder = PanResponder.create({
     onStartShouldSetPanResponder: () => {
@@ -205,7 +214,7 @@ export default function One() {
             duration: 500,
             useNativeDriver: true,
           }).start();
-        }); 
+        });
       }
       if (pan.x._value > 40) {
         setScreen((s) => s - 1);
@@ -251,26 +260,32 @@ export default function One() {
               color='white'
             />s
           </View> */}
-          <View style={{alignItems:'flex-end',marginTop:15,marginRight:10}}>
-          {muted ? (
-            <TouchableOpacity onPress={() => setMuted(false) }>
-              <Octicons name='unmute' size={32} color='white' />
-            </TouchableOpacity>
-          ) : (
-            <TouchableOpacity onPress={() => setMuted(true) }>
-                <Octicons name='mute' size={32} color='white' />
-            </TouchableOpacity>
-          )}
+          <View
+            style={{ alignItems: "flex-end", marginTop: 15, marginRight: 10 }}
+          >
+            {muted ? (
+              <TouchableOpacity onPress={() => setMuted(false)}>
+                <Octicons name="unmute" size={32} color="white" />
+              </TouchableOpacity>
+            ) : (
+              <TouchableOpacity onPress={() => setMuted(true)}>
+                <Octicons name="mute" size={32} color="white" />
+              </TouchableOpacity>
+            )}
           </View>
-        
+
           <Video
             source={VV[screen]}
             rate={1.0}
             volume={1.0}
             isMuted={muted}
-            resizeMode='contain'
-            shouldPlay 
-            isBuffering={true}
+            resizeMode="contain"
+            shouldPlay
+            onLoad={(val) => {
+              console.warn("Is loaded", val);
+              setLoaded(true);
+            }}
+            // isBuffering={true}
             isLooping
             style={{ width: "100%", height: 300 }}
           />
@@ -285,12 +300,12 @@ export default function One() {
                   textAlign: "justify",
                   fontFamily: "Renner",
                   // fontWeight:'bold'
-                }, 
+                },
                 {
                   transform: [
                     {
                       translateX: textAnim,
-                    }, 
+                    },
                   ],
                 },
               ]}
@@ -307,8 +322,7 @@ export default function One() {
                   ],
                 }}
               >
-                {TT[screen].split("")[0]} 
-                
+                {TT[screen].split("")[0]}
               </Animated.Text>
               {TT[screen].split("").splice(1).join("")}
             </Animated.Text>
@@ -348,8 +362,8 @@ export default function One() {
             </Animated.Text>
           )}
 
-          {screen == 1 || screen === 29 || screen == 2 ? null : screen == 0 ? (
-            null
+          {screen == 1 || screen === 29 || screen == 2 ? null : screen ==
+            0 ? null : (
             // <View
             //   style={{
             //     flexDirection: "row",
@@ -377,7 +391,6 @@ export default function One() {
             //     <FontAwesome name='forward' size={34} color='white' />
             //   </TouchableOpacity>
             // </View>
-          ) : (
             <View
               style={{
                 flexDirection: "row",
@@ -387,6 +400,7 @@ export default function One() {
             >
               <TouchableOpacity
                 onPress={() => {
+                  setLoaded(false);
                   setScreen((s) => s - 1);
                   Animated.timing(textAnim, {
                     toValue: -450,
@@ -402,10 +416,11 @@ export default function One() {
                 }}
                 style={{ marginHorizontal: 10 }}
               >
-                <FontAwesome name='backward' size={34} color='white' />
+                <FontAwesome name="backward" size={34} color="white" />
               </TouchableOpacity>
               <TouchableOpacity
                 onPress={() => {
+                  setLoaded(false);
                   setScreen((s) => s + 1);
                   Animated.timing(textAnim, {
                     toValue: 450,
@@ -421,12 +436,12 @@ export default function One() {
                 }}
                 style={{ marginHorizontal: 10 }}
               >
-                <FontAwesome name='forward' size={34} color='white' />
+                <FontAwesome name="forward" size={34} color="white" />
               </TouchableOpacity>
             </View>
           )}
 
-          <StatusBar color='black' />
+          <StatusBar color="black" />
         </ScrollView>
       </View>
     );
