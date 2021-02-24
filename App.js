@@ -53,7 +53,7 @@ const VV = [
   v1,
   v2,
   v3,
-  v4,
+  // v4,
   v30,
   v5,
   v6,
@@ -86,32 +86,32 @@ const TT = [
   "",
   "",
   "",
-  "Many people know the story of Noah – how God sent him a vision of the land flooded with water so deep that no one would be able to survive, how he built his ark and saved not only a lot of animals, but also his own wife and his sons and their wives! But what many people don’t know, is that the building of the ark was not a straight-forward affair! Let us start at the beginning… ",
-  "Noah was a good and God-fearing man who loved his family, respected his community and took good care of his animals. One day, tired from working hard in the fields, he went to bed after his wife had made him a meal of delicious stew and some fragrant fresh bread. ",
-  "As he snoozed in his cozy bed, he saw a terrible vision. A violent storm ravaged the land. The land he loved and worked so carefully, the land on which he and his whole family lived. ",
-  "Noah was terrified but was kept safe and secure as he rode through the storm in a wooden ark. Even in his sleep, Noah shook his head and cried out ‘No! This must not happen!’ Then God spoke to Noah: ‘Build an ark!” ",
-  "Inspired to capture the vision he had (because he knew the vision was from God), Noah awoke and took a piece of velum and hurried to draw everything he could remember from the dream.",
-  "From that moment, Noah knew he had to build the Ark in his vision. Now, Noah had three fine capable sons, and before dawn had broken, Noah called his three sons to discuss the Ark. They would talk for a while, then they would once again look at the velum on which Noah had captured the vision. Despite this, Noah’s sons each had their own interpretation of what the Ark would look like when built. ",
-  "From morning till night, long after the sun had gone down, the four of them discussed how best to build the ark. Each of them had an idea or two, and none of them agreed on everything!",
-  "Shem, who was more conservative wanted every animal to stay within the confined of the ark. He designed an ark that had lots and lots of compartments and cabins, and he would carefully labelled each one with the animal or person that would occupy it. His ark had a tight-fitting roof that would not let any rain in, so everyone (and all their supplies) would stay perfectly dry, no matter how long and how hard it rained.",
-  "Ham, another son, was more of a free spirit. He wanted the Ark not only be safe but also to encompass and preserve the fresh air and sunlight that the animals would normally enjoy outside. He envisioned the ark opening to the skies, with plenty of windows and portholes so everyone could see the blue sky and sunshine that they all needed. ",
+  "Once, long ago in a distant land, there lived a God-fearing man named Noah who loved his family, respected his community and took good care of his animals.",
+  "One night, in a dream, or in a vision of the night, there was a thunderstorm; a rain that was so heavy that it flooded his fields and the entire land.",
+  "Noah was extremely terrified but was however safe and secure as he rode on a wooden ark through the storm",
+  "Inspired by the immediacy to capture the vision he had (because he knew the vision was from God), he recorded the wooden ark, and how the Ark was built, on a little piece of dry lamb skin.",
+  "Ever since then, Noah had the urge to build the Ark in his vision; and every morning, Noah and his three sons - Shem, Ham, Japheth - would come together to discuss the Ark.",
+  "And, when they discussed the Ark, they would once look again at the little piece of dry lamb skin which Noah used to capture the vision. Despite so, Noah’s sons would still each had their own interpretation of how the Ark should be built.  ",
+  "Shem, one of the sons, who was more conservative had the idea to keep everything within the boundary. He interpreted the Ark to be a place of greater security and safety, so that when the rain came, the family could stay safe and dry from it.  ",
+  "Ham, another son, was more sensitive to the needs of the animals. He wanted the Ark not only to be safe but also to encompass the fresh air and sunlight that the animals would otherwise have enjoyed outside. For this he suggested many openings in the Ark that would enable the animals access to fresh air and sunshine that all life needed for sustenance.",
   "Just as the discussion about sunshine and fresh air were coming to an end, another problem arose in their discussion. Noah came to think about the food that they will need to prepare for the community will soon be depleted over time with the physical and population growth of the animals. This would, in turn, ever require food of larger quantities for the community for sustenance. How could they provide for all animals in the Ark over an indefinite period of time?",
-  "Just then, Japheth, yet another son, not only wanted the animals to be onboard but also their natural habitats with them. For this he envisioned the Ark to also contain the soil and along with it the myriad of plants that will grow into crops, flowers, and trees. ",
-  "Given the collected ideas of his sons, Noah thought to himself that the Ark would not only be as safe but also as successful as Earth itself in propagating life. He imagined a new kind of state created during the flood where life would flourish. These would also give the animals places to hide, sleep and play, as they trim the plants and feed on them. Additionally, Noah and his sons wouldn’t have to worry about going around with a giant poop-scoop any more.” (There had been a family squabble over who would be doing that chore already!)",
-  "This idea sounded pretty good to Noah and his sons, and so they set off to work. As expected Ham and Shem got into a bit of an argument during work, but eventually they compromised: Shem said that it would be nice to have some fresh air in the ark, every now and then, and Ham mentioned he’d quite forgotten that it will be raining! So, they worked together and came up with ingenious plan to install lots of sliding windows and doors that could be shut tight against the rain, and then flung open when more ventilation was needed.",
-  "Japheth, in the meantime, set off and gathered plants and soil from as far and wide as he could travel. As soon as the bones of the ark were in place, Japheth began his work, weaving creepers and vines around joists, laying in a thick warm layer of soil in the bottom of the ark, and planting as many seeds as he could. Amazingly, whilst so doing, Japheth inevitably brought in earthworms, ants, and all types of insects into the Ark which were not the kind of life-forms anticipated to be on the Ark. But that were also important for the Ark to propagate life.",
-  "By the time the Ark was fully constructed, the animals were already attracted to the plants in it. The ark was like an extra concentrated garden, and pretty soon, they had all the animals of the land living on board because it was such a good place to inhabit.",
-  "One day without any warning the rain came, it was scary. None of them had ever experienced anything like the power of that storm. The rain fell so heavily it was like having bucket after bucket of water thrown down, and no one could see their hand if they stretched their arm out into the rain. Thunder roared and lightning lashed the mountains. Noah and his sons were happy to tighten Shem’s doors and windows, and everything onboard had to remain within the confines of the Ark. Finally, the ark moved a little, then a little more. They were floating! ",
-  "For forty days and forty nights, the rain fell. Then, at last, the storm abated, and the angry black clouds drifted away. Now it was Ham’s turn, and he hastened around the ship, flinging wide the windows and doors, to allow warm sea breezes to blow out all the smells and fustiness that happens when people and animals live close to one another for a long time. ",
-  "Soon after, roused by the warmth of the sun, the animals awoke from their deep slumber, and began to feast in the garden. ",
-  "The zebra munched on the delicious juicy grass, alongside the antelope, wildebeest and buffalo, while the lion cubs tried – without any success – to catch the rooster who squawked at them as he slipped to the lower decks, easily evading the unpracticed cubs! ",
-  "Monkeys jumped from branch to branch, nibbling fruit and throwing banana peels all over the place, while koalas clung, yawning sleepily, to their eucalyptus trees, apparently bored by all they could see! ",
+  "Just then, Japheth, yet another son, not only wanted the animals to be onboard but also their natural habitats with them. For this he envisioned the Ark to also contain the soil and along with it the myriad of plants that will grow into crops, flowers, and trees.",
+  "Given the collected ideas of his sons, Noah thought to himself that the Ark would not only be safe but also be as successful as Earth itself in propagating life. He imagined a new kind of state created during the flood where life would flourish. These would also give the animals places to hide, sleep and play, as they trim the plants and feed on them. Additionally, Noah and his sons wouldn’t have to worry about going around with a giant poop-scoop anymore. (There had been a family squabble over who would be doing that chore already!)",
+  "So, Noah has his sons to work together. But, because of their different interpretations of the Ark, they would sometimes get into arguments among themselves, especially between Shem and Ham. One who favoured more openings whilst the other wanted only minimal openings.",
+  "Japheth on the other hand had less to do with the construction of the Ark (or with the arguments of his brothers) for he was a-keen gardener. He started laying soil and planting trees of all types in the Ark. Amazingly, whilst Japheth was laying the soil in the Ark, he realised he had actually inevitably brought in earthworms, ants, and all types of insects into the Ark which were not the kind of life-forms anticipated to be on the Ark. But that were also important for the Ark to propagate life.  ",
+  "By the time the Ark was fully constructed, and its garden beautifully cultivated, all sorts of animals had already voluntarily inhabited the Ark because it was such a good place to inhabit.",
+  "One day without warning, the rains came and everything onboard had to remain within the confines of the Ark. For forty days and nights rain came pouring down on Earth. Noah and his new family were shut altogether in the Ark, with only the openings that Shem left for ventilation.",
+  "So by the end of forty days and nights, the rain receded. Ham opened up the roof and for a long time the bright blue sky soaked into the cabin, and the ocean breezes carried away the foul odour.",
+  "Soon after, roused by the warmth of the sun, the animals awoke from their deep slumber, and began to feast in the garden that Japheth had so well planted.",
+  "The zebras, wildebeests, buffalos began munching grass on the ground. The rooster flapped their wings and hopped between decks and easily escaped from the juvenile cubs who were still learning to catch their first prey.",
+  "Monkeys scampered from tree to tree to grab their favourite fruits, while the Koalas still snoozed in a deep slumber…",
   "While most of the animals were content with what they had, and the small songbirds were happy to fly from flower to flower, catching insects, on the ark, the bigger birds were impatient to stretch their wings and see what there was to see in this new changed world.",
   "The eagles and other birds of prey were delighted with the abundance of sea food right underneath their sharp eyes, and quickly learned how to plunge into the water and catch a delicious nutritious fish to dine on.",
-  "Otters and other creatures that loved to swim soon learned to scamper up and down the ladders that Ham fitted to the side of the ark for them, fishing, swimming and splashing for hours at a time, before coming on board for a nap, and then off again into the warm welcoming water.",
-  "All the animals found ways of enjoying themselves on the ark. On the other hand, Noah realized, if they were to rely solely on the food they would have brought on board, to sustain the community; they would have made a grave mistake that risked the community to outgrow their supplies, and thereafter even nature’s capacity to replenish the community (if there a garden in the first place). The Ark would therefore be unsustainable.",
+  "Otters and other creatures that loved to swim soon learned to scamper up and down the ark. Fishing, swimming and splashing for hours at a time, before coming on board for a nap, and then off again into the water.",
+  "All the animals found ways of enjoying themselves on the ark. Noah, however, recalled if they were to rely solely on the food they would have brought on board, to sustain the community; they would have made a grave mistake that risked the community to outgrow their supplies, and thereafter even nature’s capacity to replenish the community (if there a garden in the first place). The Ark would therefore be unsustainable!",
   "And so, Noah realised it was important for him and the community to live within the capacity of nature and learn to effectively store nature’s providence through the myriad of plants and animals when nature is giving generously. As such Noah concluded - “Greater Biodiversity, Greater Storing Capacity of Nature.”",
-  "So for rest of the days, for almost a year, the animals lived on the Ark. Not only did they survive the crisis, but they were thriving, had healthy offspring, well nourished by God himself through the providence of Nature. As for Noah and his sons, they learned to accept and respect the differences among themselves. And, with the flood receded, Noah and his family and the animals left the Ark, but what journey awaits for them?",
+  "So for the rest of the days, for almost a year, the animals lived on the Ark. Not only did they survive the crisis, but they were thriving, had healthy offspring, well nourished by God himself through the providence of Nature. As for Noah and his sons, they learned to accept and respect the differences among themselves. And, with the flood receded, Noah and his family and the animals left the Ark. But what journey awaits for them?",
+  "",
   "",
 ];
 
@@ -145,9 +145,9 @@ export default function One() {
     //     setScreen(1);
     //   }, 100000);
     // }
-    if (screen == 29 && loaded) {
+    console.warn("Screeen", screen);
+    if (screen == 28) {
       setLoaded(false);
-      console.warn("screen 29");
       setTimeout(() => {
         setScreen(0);
       }, 19000);
@@ -259,19 +259,7 @@ export default function One() {
               color='white'
             />s
           </View> */}
-          <View
-            style={{ alignItems: "flex-end", marginTop: 15, marginRight: 10 }}
-          >
-            {muted ? (
-              <TouchableOpacity onPress={() => setMuted(false)}>
-                <Octicons name="unmute" size={32} color="white" />
-              </TouchableOpacity>
-            ) : (
-              <TouchableOpacity onPress={() => setMuted(true)}>
-                <Octicons name="mute" size={32} color="white" />
-              </TouchableOpacity>
-            )}
-          </View>
+        
 
           <Video
             source={VV[screen]}
@@ -290,83 +278,86 @@ export default function One() {
           />
           {/* <Animated.Text style={{color:'white',fontWeight:'normal'}}>egshsgsegse</Animated.Text> */}
 
-          {screen == 3 ? (
-            <Animated.Text
-              style={[
-                {
-                  color: "white",
-                  fontSize: 22,
-                  textAlign: "justify",
-                  fontFamily: "Renner",
-                  // fontWeight:'bold'
-                },
-                {
-                  transform: [
-                    {
-                      translateX: textAnim,
-                    },
-                  ],
-                },
-              ]}
-            >
+          <View style={{ paddingHorizontal: 10 }}>
+            {screen == 3 ? (
               <Animated.Text
-                style={{
-                  fontWeight: "bold",
-                  fontSize: 32,
-                  textAlign: "justify",
-                  transform: [
-                    {
-                      translateX: textAnim,
-                    },
-                  ],
-                }}
+                style={[
+                  {
+                    color: "white",
+                    fontSize: 22,
+                    textAlign: "justify",
+                    fontFamily: "Renner",
+                    // marginHorizontal:5
+                    // fontWeight:'bold'
+                  },
+                  {
+                    transform: [
+                      {
+                        translateX: textAnim,
+                      },
+                    ],
+                  },
+                ]}
               >
-                {TT[screen].split("")[0]}
+                <Animated.Text
+                  style={{
+                    fontWeight: "bold",
+                    fontSize: 32,
+                    textAlign: "justify",
+                    transform: [
+                      {
+                        translateX: textAnim,
+                      },
+                    ],
+                  }}
+                >
+                  {TT[screen]?.split("")[0]}
+                </Animated.Text>
+                {TT[screen].split("").splice(1).join("")}
               </Animated.Text>
-              {TT[screen].split("").splice(1).join("")}
-            </Animated.Text>
-          ) : (
-            <Animated.Text
-              style={[
-                {
-                  color: "white",
-                  fontSize: 22,
-                  textAlign: "justify",
-                  fontFamily: "Renner",
-                },
-                {
-                  transform: [
-                    {
-                      translateX: textAnim,
-                    },
-                  ],
-                },
-              ]}
-            >
+            ) : (
               <Animated.Text
-                style={{
-                  fontWeight: "bold",
-                  textAlign: "justify",
-                  fontSize: 22,
-                  transform: [
-                    {
-                      translateX: textAnim,
-                    },
-                  ],
-                }}
+                style={[
+                  {
+                    color: "white",
+                    fontSize: 22,
+                    textAlign: "justify",
+                    fontFamily: "Renner",
+                  },
+                  {
+                    transform: [
+                      {
+                        translateX: textAnim,
+                      },
+                    ],
+                  },
+                ]}
               >
-                {TT[screen].split(" ")[0]}{" "}
+                <Animated.Text
+                  style={{
+                    fontWeight: "bold",
+                    textAlign: "justify",
+                    fontSize: 22,
+                    transform: [
+                      {
+                        translateX: textAnim,
+                      },
+                    ],
+                  }}
+                >
+                  {TT[screen].split(" ")[0]}{" "}
+                </Animated.Text>
+                {TT[screen].split(" ").splice(1).join(" ")}
               </Animated.Text>
-              {TT[screen].split(" ").splice(1).join(" ")}
-            </Animated.Text>
-          )}
+            )}
+          </View>
 
-          {screen == 1 || screen === 29 || screen == 2 ? null : screen == 0 ? (
+          {screen == 1 || screen === 28 || screen == 2 ? null : screen == 0 ? (
             <TouchableOpacity
-            onPress={()=>{
-              setScreen(1);
-              setLoaded(false)
-            }}
+              onPress={() => {
+                setScreen(1);
+                setLoaded(false);
+              }}
               style={{
                 flex: 1,
                 justifyContent: "center",
@@ -375,7 +366,7 @@ export default function One() {
                 width: "100%",
               }}
             >
-              <Text style={{ fontSize: 26,color:'#fff' }}>Continue >></Text>
+              <Text style={{ fontSize: 26, color: "#fff" }}>Continue >></Text>
             </TouchableOpacity>
           ) : (
             // <View
@@ -456,6 +447,19 @@ export default function One() {
           )}
 
           <StatusBar color="black" />
+          <View
+            style={{ alignItems: "flex-end",justifyContent:'flex-end', marginTop: 15, marginRight: 10,}}
+          >
+            {muted ? (
+              <TouchableOpacity onPress={() => setMuted(false)}>
+                <Octicons name="unmute" size={32} color="white" />
+              </TouchableOpacity>
+            ) : (
+              <TouchableOpacity onPress={() => setMuted(true)}>
+                <Octicons name="mute" size={32} color="white" />
+              </TouchableOpacity>
+            )}
+          </View>
         </ScrollView>
       </View>
     );
