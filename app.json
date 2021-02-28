@@ -2,7 +2,7 @@
   "expo": {
     "name": "Noah's Ark",
     "slug": "noah",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "default",
     "icon": "./assets/sss.png",
     "splash": {
@@ -23,7 +23,7 @@
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "com.noahark.myappaboutnoah",
-      "buildNumber": "4.0.0"
+      "buildNumber": "8.0.0"
     },
     "android": {
       "permissions": [],
